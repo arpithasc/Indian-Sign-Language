@@ -24,4 +24,16 @@ This project aims to provide an assistive technology solution by:
 - **Google Speech Recognition API** – convert audio to text
 - **Machine Learning** (CNN/SVM if gesture generation is used)
 
+## 🧪 Example Use Case
+Say "Hello, how are you?" into the mic
+The system converts it to text
+Text is mapped to individual ISL signs
+ISL signs are displayed sequentially
+
+## 📚 Future Scope
+Add webcam-based reverse translation (gesture to text)
+Expand vocabulary using NLP
+Integrate real-time animated avatars
+Mobile application version
+
 
