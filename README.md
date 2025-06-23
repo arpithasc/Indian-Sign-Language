@@ -26,14 +26,20 @@ This project aims to provide an assistive technology solution by:
 
 ## 🧪 Example Use Case
 Say "Hello, how are you?" into the mic
+
 The system converts it to text
+
 Text is mapped to individual ISL signs
+
 ISL signs are displayed sequentially
 
 ## 📚 Future Scope
 Add webcam-based reverse translation (gesture to text)
+
 Expand vocabulary using NLP
+
 Integrate real-time animated avatars
+
 Mobile application version
 
 
