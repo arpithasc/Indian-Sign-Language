@@ -27,3 +27,23 @@ OpenCV               Real-time video processing
 scikit-learn         SVM for classification
 TensorFlow/Keras     CNN modeling
 Google Speech API    Text-to-speech output
+
+🧠 System Architecture
+[ Webcam Input ]
+       ↓
+[ Preprocessing (OpenCV + HOG) ]
+       ↓
+[ Classification (SVM/CNN) ]
+       ↓
+[ Output to Text or Speech (TTS API) ]
+
+📌 Key Features
+	•	🔍 Uses HOG (Histogram of Oriented Gradients) for feature extraction
+	•	🧠 Implements SVM for static gesture classification
+	•	🌀 Supports dynamic gestures using CNN-based models
+	•	🔈 Converts output text to speech using Google TTS API
+
+📉 Limitations
+	•	Works best in controlled lighting environments
+	•	Currently trained on a limited dataset of ISL gestures
+	•	Real-time processing speed may vary based on hardware
